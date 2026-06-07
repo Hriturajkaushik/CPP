@@ -76,6 +76,8 @@ int main()
    return 0;
 }
 
+
+// DATA TYPPE: BOOL
 #include <iostream>
 using namespace std;
 int main()
@@ -88,14 +90,36 @@ int main()
    return 0;
 }
 
+
+// DATA TYPE: STRING
 #include <iostream>
 #include <string>
 using namespace std;
 int main()
 {
    string MyName = "Hrituraj Kauhsik";
-   cout << MyName;
+   cout << MyName; // OUTPUT: Hrituraj kaushik
    return 0;
 }
 
 
+// AUTO VARIABLE
+// It is used to automatically detect the data type of the variable by the compiler and assign it to the variable
+
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+   auto integerX = 234;
+   cout << integerX << "\n";
+   auto CharacterA = 'W';
+   cout << CharacterA << "\n";
+   auto FloatC = 30.54;
+   cout << FloatC << "\n";
+   auto DoubleD = 45.5476097409457;
+   cout << DoubleD << "\n";
+   auto StringY = string("Hrituraj Kaushik");
+   cout << StringY;
+   return 0;
+}
