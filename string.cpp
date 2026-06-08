@@ -97,7 +97,7 @@ int main()
     return 0;
 }
 
-// STRING LIBRARY also has ((((at)))) function to find the something at given index
+// STRING LIBRARY also has ((at)) function to find the something at given index
 
 #include <iostream>
 #include <string>
@@ -108,11 +108,10 @@ int main()
     string txt = "Marvel";
     cout << txt.at(0);
     cout << txt.at(2);
-    cout << txt.at(txt.length() - 1);
     return 0;
 }
 
-// To print the last character in the strings
+//-------------------To print the last character in the strings----------------------
 
 #include <iostream>
 #include <string>
@@ -120,11 +119,11 @@ using namespace std;
 int main()
 {
     string txt = "Rasengann";
-    cout << txt[txt.length() - 1];
+    cout << txt[txt.length() - 1]; // // It will print the last character of the string because the length of the string is 9 but the last character is at 8th index. So, we use length-1 to get the last character.
     return 0;
 }
 
-// change cerain characters in the string
+//-----------------change certain characters in the string-------------------------
 
 #include <iostream>
 #include <string>
@@ -137,7 +136,8 @@ int main()
     return 0;
 }
 
-// Agar koi character ya string O/P me special generate krni h or " inke andar " ya ' inke ' ya phir / inke / andar likhni h toh...
+
+//-----------------ESCAPE SEQUENCE IN STRING-------------------------
 
 #include <iostream>
 #include <string>
@@ -148,17 +148,17 @@ int main()
     // string txt = "My name is "HriturajKaushik" ";
     // You can't directly use "" OR '' OR // in CPP
 
-    string txt = "My name is \"Hrituraj Kaushik\"";
+    string txt = "My name is \"Hrituraj Kaushik\""; // To use "" in the string
     cout << txt << "\n";
-    string txt1 = "My name is \'Hrituraj Kaushik\' Hrituraj\'s";
+    string txt1 = "My name is \'Hrituraj Kaushik\' Hrituraj\'s"; // To use '' in the string
     cout << txt1 << "\n";
-    string txt2 = "My name is \\Hrituraj Kaushik\\";
+    string txt2 = "My name is \\Hrituraj Kaushik\\"; // To use // in the string
     cout << txt2;
 
     return 0;
 }
 
-// Hum CPP me input bhi le akte h string ki form me
+//-----------------TAKING STRING INPUT-------------------------
 
 #include <iostream>
 #include <string>
