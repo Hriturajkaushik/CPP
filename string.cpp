@@ -70,8 +70,11 @@ using namespace std;
 
 int main()
 {
-    string kuchbhi = "nviubeuviubchbiubsuovcysdvyibryvhdvscisgciugwiovhbehjbvu;eviuwerjhiuyevwiucbvwcbwcbi;owhclbevubeuvbhlbvlbvlwvclywilcyv";
-    cout << "Length of the string is: " << kuchbhi.length(); // we can also use SIZE in place of length.
+    string random = "nviubeuviubchbiubsuovcysdvyibryvhdvscisgciugwiovhbehjbvu;eviuwerjhiuyevwiucbvwcbwcbi;owhclbevubeuvbhlbvlbvlwvclywilcyv";
+    cout << "Length of the string is: " << random.length(); 
+    cout<<"\n";
+    cout<<"Length of the string is:"<<random.size();
+    // we can also use SIZE in place of length.
     return 0;
 }
 
@@ -85,11 +88,12 @@ using namespace std;
 
 int main()
 {
-    string txt = "Bankai";
-    cout << txt[0]; // Square bracket ke andar index ki value hoti aur uss index pr jo character or number etc hota h woh print ho jata h.
-    cout << txt[1];
-    cout << txt[2];
-    cout << txt[3];
+    string txt = "Bankai"; // [B-0, a-1, n-2, k-3, a-4, i-5]
+    // The number inside the square brackets is the position of the character in the string, starting from 0th index..
+    cout << txt[0]; // O/P : B
+    cout << txt[1]; // O/P : a
+    cout << txt[2]; // O/P : n
+    cout << txt[5]; // O/P : i
     return 0;
 }
 
