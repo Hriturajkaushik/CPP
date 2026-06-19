@@ -218,3 +218,27 @@ int main()
 && --->  Logical AND
 || --->  Logical OR
 = --->  Assignment */
+
+//------------------SOME MATH FUNCTIONS---------------------
+
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<max(5, 10)<<"\n"; // It will return the maximum value between 5 and 10
+    cout<<min(5, 10)<<"\n"; // It will return the minimum
+    return 0;
+}
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    
+    cout<<sqrt(64)<<"\n"; // It will return the square root of 64
+    cout<<round(2.6)<<"\n"; // It will round the number to the nearest integer
+    cout<<ceil(2.1)<<"\n"; // It will round the number up to the nearest integer
+    cout<<floor(2.9)<<"\n"; // It will round the number down to the nearest integer
+    cout<<log(2)<<"\n"; // It will return the natural logarithmic of 2
+    cout<<exp(2)<<"\n"; // It will return the exponential of 2
+    return 0;
+}
