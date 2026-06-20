@@ -136,7 +136,7 @@ int main(){
   int b = 200;
   int c = 400;
 
-  if(a>b || a>c){
+  if(a>b || a>c){ // Only one condition should be true to execute the if block
     cout<<"A is greater than B or C";
 
   else if(b>a || b<c){
@@ -160,7 +160,7 @@ int main(){
   int a = 99;
   int b = 37;
 
-  if(!(a>b)){
+  if(!(a>b)){ // It will check the condition and if the condition is true then it will return false and if the condition is false then it will return true
     cout<<"A is not Greater than B";
   }
   else
