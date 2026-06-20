@@ -98,3 +98,29 @@ int main()
 
   return 0;
 }
+
+
+//-----------------------------Logical Operators------------------------------
+
+#include<iostream>
+#include<string?
+#include<cmath>
+using namespace std;
+
+int main(){
+
+  int a = 10;
+  int b = 40;
+  int c = 60;
+
+  if(a>b && a>c){
+    cout<<"A is greater than B and C";
+  }
+  else if(b>a && b>c){
+    cout<<"B is greater than A and C";
+  }
+  else
+    cout<<"C is greater than A and B";
+
+    return 0;
+}
