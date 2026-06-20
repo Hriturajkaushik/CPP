@@ -168,3 +168,24 @@ int main(){
 
     return 0;
 }
+
+//----------------------------------EXAMPlES------------------------------
+
+#include<iostream>
+#include<string>
+#include<cmath>
+
+using namespace std;
+
+int main(){
+  int num;
+  cout<<"enter a number: ";
+  cin>>num;
+  if(num%2==0){
+    cout<<"Even number";
+  }
+  else
+    cout<<"Odd number";
+
+    return 0;
+}
