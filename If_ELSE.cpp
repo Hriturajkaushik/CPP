@@ -113,7 +113,7 @@ int main(){
   int b = 40;
   int c = 60;
 
-  if(a>b && a>c){
+  if(a>b && a>c){ // Both the conditions should be true to execute the if block
     cout<<"A is greater than B and C";
   }
   else if(b>a && b>c){
@@ -121,6 +121,50 @@ int main(){
   }
   else
     cout<<"C is greater than A and B";
+
+    return 0;
+}
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+
+  int a = 100;
+  int b = 200;
+  int c = 400;
+
+  if(a>b || a>c){
+    cout<<"A is greater than B or C";
+
+  else if(b>a || b<c){
+    cout<<"B is greater than A or C";
+  }
+  else
+    cout<<"C is greater than A or B";
+
+    return 0;
+  
+  }
+}
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+
+  int a = 99;
+  int b = 37;
+
+  if(!(a>b)){
+    cout<<"A is not Greater than B";
+  }
+  else
+    cout<<"A is Greater than B";
 
     return 0;
 }
