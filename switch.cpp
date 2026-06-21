@@ -91,3 +91,45 @@ int main(){
        }
        return 0;
 }
+
+
+//---------------------Another Example-----------------------------
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+
+    int num1;
+    int num2;
+    char op;
+    cout<<"Enter first number: ";
+    cin>>num1;
+    cout<<"Enter second number: ";
+    cin>>num2;
+    cout<<"Enter the operator: ";
+    cin>>op;
+
+    switch(op){
+        case '+':
+            cout<<"Sum of"<<num1<<"and"<<num2<<" is = "<<num1 + num2;
+            break;
+        case '-':
+            cout<<"Difference of"<<num1<<" and "<<num2<<" is = "<<num1 - num2;
+            break;
+        case '*':
+            cout<<"Product of"<<num1<<" and "<<num2<<" is = "<<num1 * num2;
+            break;
+        case '/':
+            if(num2 != 0){
+                cout<<"Quotient of"<<num1<<" and "<<num2<<" is = "<<num1/num2;
+            }
+            else {
+                cout<<"Division by 0 is not allowed.";
+            }
+        break;
+    }
+    return 0;
+}
