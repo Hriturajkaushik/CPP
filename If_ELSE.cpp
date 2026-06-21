@@ -189,3 +189,31 @@ int main(){
 
     return 0;
 }
+
+
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+  
+  int age = 18;
+  bool iscitizen = true;
+
+  if(age == 18){
+    cout<<"Old enougn to vote. \n";
+
+    if(iscitizen){
+      cout<<"And, you are a citizen so you can vote";
+  }
+    else{
+      cout<<"Your are not a citizen so you can't vote";
+    }
+  }
+    else{
+      cout<<"You are not old enough to vote";
+  }
+  return 0;
+}
