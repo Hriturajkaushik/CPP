@@ -71,33 +71,6 @@ int main()
   return 0;
 }
 
-#include <iostream>
-#include <string>
-#include <cmath>
-using namespace std;
-int main()
-{
-  int age;
-  cout << "Enter your age: ";
-  cin >> age;
-  bool citizen = true;
-
-  if (age >= 18)
-  {
-    cout << "Valid for vote.";
-
-    if (citizen)
-    {
-      cout << "Candidate is citizen";
-    }
-    else
-      cout << "Not Citizen";
-  }
-  else
-    cout << "Not valid.";
-
-  return 0;
-}
 
 
 //-----------------------------Logical Operators------------------------------
