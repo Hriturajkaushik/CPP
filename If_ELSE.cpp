@@ -217,3 +217,41 @@ int main(){
   }
   return 0;
 }
+
+
+
+
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+    int age;
+    cout << "Enter your age: ";
+    cin >> age;
+
+    string country;
+    cout << "Enter your country: ";
+    cin >> country;
+
+    if(age >= 18)
+    {
+        cout << "You are old enough to vote.\n";
+
+        if(country == "India")
+        {
+            cout << "You are eligible to vote in India.";
+        }
+        else
+        {
+            cout << "You are not eligible to vote in India.";
+        }
+    }
+    else
+    {
+        cout << "You are not old enough to vote.";
+    }
+
+    return 0;
+}
