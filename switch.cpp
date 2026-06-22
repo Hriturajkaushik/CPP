@@ -133,3 +133,38 @@ int main(){
     }
     return 0;
 }
+
+//---------------------Another Example-----------------------------
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+    char grade;
+    cout<<"Enter the grade: ";
+    cin>>grade;
+
+    switch(grade){
+        case 'A':
+            cout<<"Excellent";
+            break;
+        case 'B':
+            cout<<"Good";
+            break;
+        case 'C':
+            cout<<"Fair";
+            break;
+        case 'D':
+            cout<<"Poor";
+            break;
+        case 'F';
+            cout<<"Fail";
+            break;
+        default:
+            cout<<"Gradr does not exist. Please enter a valid grade.";
+    }
+        return 0;
+}
+                                                       
