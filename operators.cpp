@@ -230,7 +230,7 @@ int main(){
 }
 
 #include<iostream>
-#include<cmath>
+#include<cmath>  // It is a header file that contains mathematical functions
 using namespace std;
 int main(){
     
