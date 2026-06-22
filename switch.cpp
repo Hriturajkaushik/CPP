@@ -168,3 +168,36 @@ int main(){
         return 0;
 }
                                                        
+---------------------------------Another Example-----------------------------
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+
+    char alphabet;
+    cout<<"Enter a alphabet:  ";
+    cin>>alphabet;
+    
+    switch(alphabet){
+        case 'a':
+        case 'A':
+        case 'e':
+        case 'E':
+        case 'i':
+        case 'I':
+        case 'o':
+        case 'O':
+        case 'u':
+        case 'U':
+            cout<<"The alphabet is a vowel.";
+            break;
+        default:
+            cout<<"The alphabet is a consonant.";
+    }
+    
+     return 0;
+ }
+
