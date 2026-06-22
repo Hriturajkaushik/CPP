@@ -197,7 +197,43 @@ int main(){
         default:
             cout<<"The alphabet is a consonant.";
     }
-    
+
      return 0;
  }
 
+//---------------------Another Example-----------------------------
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+
+    int choice;
+    double value;
+    cout<<"Enter the value: ";  
+    cin>>value;
+
+    cout<<"Unit Converter menu: "<<endl;
+    cout<<"1. Kilometers to meters"<<endl;
+    cout<<"2. Meters to centimeters"<<endl;
+    cout<<"3. Miles to kilometers. \n";
+    cout<<"Enter your choice: ":
+    cin>>choice;
+
+    switch(choice){
+        case 1:
+            cout<<value<<" kilometers is equal to "<<value*1000<<" meters.";
+            break;
+        case 2:
+            cout<<value<<" meters is equal to "<<value*100<<" centimeters.";
+            break;
+        case 3:
+            cout<<value<<" miles is equal to "<<value*1.609<<" kilometers.";
+            break;
+        default:
+            cout<<"Invalid choice. Please enter a valid option.";
+    }
+     return 0;
+}
