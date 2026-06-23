@@ -25,13 +25,24 @@ using namespace std;
 int main()
 {
   int count = 0;
-  while (count <= 5)
+  while (count <= 5) // loop will run until the value of count is less than or equal to 5
   {
-    cout << count << "\n";
+    cout << count << "\n"; // print the value of count from 0 to 5
+    count++; // Increment the value of count by 1 after each iteration.
   }
-  cout << "Happy Birthday";
+  cout << "Happy Birthday"; // Print the message after the loop ends;
   return 0;
 }
+
+/* Sample Output
+0
+1
+2
+3
+4
+5
+Happy Birthday
+*/
 
 
 
@@ -50,3 +61,14 @@ int main(){
    while(false); //With this condition loop will run only once because the condition is false. The loop will end after the first iteration.
    return 0;
 }
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+
+     
+}
+
