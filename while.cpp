@@ -10,6 +10,9 @@ int main()
     cout << i << "\n";  // print the value of i from 0 to 10
     i++;   // Increment the the value of i by 1 after each iteration
   }
+
+cout<<"Loop Ended, all numbers from 0 to 10 are printed";
+
   return 0; 
 }
 
