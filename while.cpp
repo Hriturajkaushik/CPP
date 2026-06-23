@@ -33,3 +33,20 @@ int main()
   return 0;
 }
 
+
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+   int i = 1;
+   do{
+       cout<<i<<endl;
+       i++;
+   }
+   while(true); //With this condition loop will run infinitely time because the condition is always true. The loop will never end.
+   while(false); //With this condition loop will run only once because the condition is false. The loop will end after the first iteration.
+   return 0;
+}
