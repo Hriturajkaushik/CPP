@@ -14,7 +14,7 @@ int main()
 
     for (int i = 0; i < 10; i++)
     {
-        cout << i << "\n"; // prints the nymber from (i=0) 0 to 9 (i<10) by increasing the value of 'i' after one completion of loop
+        cout << i << "\n"; // prints the number from (i=0) 0 to 9 (i<10) by increasing the value of 'i' after one completion of loop
     }
     return 0;
 }
