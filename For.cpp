@@ -96,6 +96,34 @@ int main()
     return 0;
 }
 
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    int count;
+    cout << "Enter the Count: ";
+    cin >> count;
+
+    for (int i = 0; i <= count; i++) // This loop will start the value of i = 0 and it will go upto the entered value of count by the user [ upto beacuse of the i++]
+    {
+        cout << i << "\n"; // print the value of i from 0 to the entered count value
+    }
+
+    /*  sample inpur
+            count = 5
+            smaple output
+            0
+            1
+            2
+            3
+            4
+            5
+    */
+    return 0;
+}
 
 #include <iostream>
 #include <string>
