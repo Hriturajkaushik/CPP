@@ -21,7 +21,7 @@ int main()
 
 
 
-// Multiples of 2
+//--------------------Printing Multiples of 2-------------------------------
 
 #include <iostream>
 #include <string>
@@ -88,7 +88,7 @@ int main(){
 
 
 
-//   Double the number
+//-------------------Doubling Numbers Using a Loop-------------------------------
 
 #include <iostream>
 #include <string>
@@ -106,27 +106,7 @@ int main()
 
 
 
-// Sum of the numbers
-
-#include <iostream>
-#include <string>
-#include <cmath>
-using namespace std;
-int main()
-{
-    int sum = 0;
-    for (int i = 0; i <= 10; i++)
-    {
-        sum = sum + i;
-    }
-    cout << sum; // print the sum of all 10 numbers
-    return 0;
-}
-
-
-
-
-// countdown
+//--------------------------Countdown Program------------------------------------
 
 #include <iostream>
 #include <string>
@@ -156,6 +136,9 @@ int main()
     return 0;
 }
 
+
+
+//----------------------------------Counting from 0 to N---------------------------
 
 
 
@@ -190,7 +173,7 @@ int main()
 
 
 
-
+//--------------------------------Printing Even Numbers from 0 to 100--------------------------
 
 #include <iostream>
 #include <string>
@@ -210,6 +193,8 @@ int main()
 }
 
 
+
+//--------------------------------Multiplication Table Generator-------------------
 
 #include<iostream>
 #include<string>
