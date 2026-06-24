@@ -21,6 +21,7 @@ int main()
 
 
 
+
 // Multiples of 2
 
 #include <iostream>
@@ -39,7 +40,6 @@ int main()
 
 
 
-
 //   Double the number
 
 #include <iostream>
@@ -48,13 +48,12 @@ int main()
 using namespace std;
 int main()
 {
-    for (int i = 1; i <= 2000000; i = i * 2)
+    for (int i = 1; i <= 20; i = i * 2)
     {
         cout << i << "\n";
     }
     return 0;
 }
-
 
 
 
@@ -75,7 +74,6 @@ int main()
     cout << sum; // print the sum of all 10 numbers
     return 0;
 }
-
 
 
 
@@ -113,7 +111,6 @@ int main()
 
 
 
-
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -147,7 +144,6 @@ int main()
 
 
 
-
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -162,5 +158,25 @@ int main()
         }
         
     }
+    return 0;
+}
+
+
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+    
+    int num;
+    cout<<"Enter the number you want to print the table: ";
+    cin>>num;
+    
+    for(int i = 1; i<=10; i++){
+        cout<<num<<"*"<<i<<"="<<num*i<<endl; // Print the table of entered number from 1 to 10
+    }
+
     return 0;
 }
