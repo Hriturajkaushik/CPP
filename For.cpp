@@ -21,6 +21,24 @@ int main()
 
 
 
+// Multiples of 2
+
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+int main()
+{
+    for (int i = 0; i < 20; i = i + 2)
+    {
+        cout << i << "\n";
+    }
+    return 0;
+}
+
+
+
+//---------------------Sum of First 10 Natural Numbers--------------------------------
 
 #include<iostream>
 #include<string>
@@ -39,23 +57,33 @@ int main(){
 }
 
 
+//------------------------------ Sum of Numbers in a Given Range----------------------------
 
-
-
-// Multiples of 2
-
-#include <iostream>
-#include <string>
-#include <cmath>
+#include<iostream>
+#include<string>
+#include<cmath>
 using namespace std;
-int main()
-{
-    for (int i = 0; i < 20; i = i + 2)
+
+int main(){
+
+    int sum = 0;
+    int num1;
+    cout<<"Enter the first number from which you want to sum: ";
+    cin>>num1;
+    int num2;
+    cout<<"Enter the second number to which you want the sum:  ";
+    cin>>num2;
+
+    for (int i = num1; i<=num2 ; i++)
     {
-        cout << i << "\n";
+        sum += i;
     }
+
+    cout<<"The sum of numbers from "<<num1<<" to "<<num2<<" is : "<<sum;
+
     return 0;
 }
+
 
 
 
