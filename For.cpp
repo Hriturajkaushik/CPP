@@ -19,6 +19,8 @@ int main()
     return 0;
 }
 
+
+
 // Multiples of 2
 
 #include <iostream>
@@ -34,6 +36,10 @@ int main()
     return 0;
 }
 
+
+
+
+
 //   Double the number
 
 #include <iostream>
@@ -48,6 +54,10 @@ int main()
     }
     return 0;
 }
+
+
+
+
 
 // Sum of the numbers
 
@@ -65,6 +75,10 @@ int main()
     cout << sum; // print the sum of all 10 numbers
     return 0;
 }
+
+
+
+
 
 // countdown
 
@@ -96,6 +110,10 @@ int main()
     return 0;
 }
 
+
+
+
+
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -124,6 +142,11 @@ int main()
     */
     return 0;
 }
+
+
+
+
+
 
 #include <iostream>
 #include <string>
