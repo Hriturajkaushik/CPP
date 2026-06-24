@@ -104,7 +104,7 @@ int main()
 
 
 // AUTO VARIABLE
-// It is used to automatically detect the data type of the variable by the compiler and assign it to the variable
+// It automatically detect the data type of the variable in the compiler and assign it to the variable
 
 #include <iostream>
 #include <string>
