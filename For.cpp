@@ -22,6 +22,26 @@ int main()
 
 
 
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+
+    int sum = 0;
+    for( int i = 0; i<=10; i++){ 
+        sum = sum+i;
+    }
+
+    cout<<"sum is: "<<sum; // print the sum of the first 10 numbers
+    return 0;
+}
+
+
+
+
+
 // Multiples of 2
 
 #include <iostream>
