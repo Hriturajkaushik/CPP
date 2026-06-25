@@ -51,3 +51,24 @@ int main(){
    return 0;
 
 }
+
+//--------------------------Change specific elements from desired index----------------------------
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+
+   string cars[4] = {"Audi", "BMW", "Mercedes", "Prosche"};
+
+   cars[0] = "Bugatti";
+   cars[1] = "Ferrari";
+   cars[2] = "Koenigsegg";
+   cars[3] = "Pagani";
+
+   cout<<cars[4];
+
+   return 0;
+}
