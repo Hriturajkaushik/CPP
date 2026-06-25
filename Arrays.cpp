@@ -1,77 +1,82 @@
-//----------------------------------------------ARRAYS-----------------------------------------------------
+﻿//-------------------------------------- ARRAYS -------------------------------------
 
-/* 
-   Arrays are a type of data structure used to store the multiple values in a single variable
+/*
+   Arrays are a type of data structure used to store multiple values in a single variable.
 */
-#include<iostream>
-#include<string>
-#include<cmath>
+#include <iostream>
+#include <string>
+#include <cmath>
+
 using namespace std;
 
-int main(){
-      // To declare an array, define the variable type, specify the name of the array followed by square brackets and specify the number of elements it should store:
+int main()
+{
+    // To declare an array, define the variable type, specify the name of the array
 
-      string cars[4] = {"Audi", "BMW", "Mercedes", "Prosche"}; // It shows an Array conataining strings in a variable named Cars.
+    // followed by square brackets and specify the number of elements it should store:
 
-      int num[4] = {10, 20, 30, 40}; // It shows an array containing integers in a variable named num.
+    string cars[4] = {"Audi", "BMW", "Mercedes", "Prosche"}; // Array containing strings.
+    
+    int num[4]    = {10, 20, 30, 40};                        // Array containing integers.
 
-/* In an array the characters, string, integers, are placed by their index 
+    /* In an array the characters, strings, integers, are placed by their index.
+       The first element has index 0, the second element index 1, and so on.
+       Example:
+         0 -> "Audi"
+         1 -> "BMW"
+         2 -> "Mercedes"
+         3 -> "Prosche"
+       The nth element has index n-1.
+    */
 
-   Like 1st element is at 0th position in an array { "Audi" & 10 } they are the first element but their position is 0th in the array
-        2nd element is at 1st position in an array
-        3rd element is at 2nd position in an array
-        .
-        .
-        .
-        .
-        n  element has ( n-1 ) position in an array
-*/
-     return 0;
+    return 0;
 }
 
 
-//--------------------------------Accessing an element in an array---------------------------------------
+//------------------------- Accessing an element in an array -----------------------------
 
-#include<iostream>
-#include<string>
-#include<cmath>
+#include <iostream>
+#include <string>
+#include <cmath>
+
 using namespace std;
 
-int main(){
+int main()
+{
+    string cars[4] = {"Audi", "BMW", "Mercedes", "Prosche"};
 
-   string cars[4] = {"Audi", "BMW", "Mercedes", "Prosche"};
+    cout << "Element at 0th position is: " << cars[0] << endl; // Outputs - Audi
+    cout << "Element at 1st position is: " << cars[1] << endl; // Outputs - BMW
+    cout << "Element at 2nd position is: " << cars[2] << endl; // Outputs - Mercedes
+    cout << "Element at 3rd position is: " << cars[3] << endl; // Outputs - Porsche
 
-   cout<<"Element at 0th position is: "<<cars[0]<<endl;     // Outputs - Audi
-   cout<<"Element at 1st position is: "<<cars[1]<<end;     // O/P - BMW
-   cout<<"Element at 2nd position is: "<<cars[2]<<endl;   // O/P - Mercedes
-   cout<<"Element at 3rd position is: "<<cars[3]<<endl;  // O/P - Porsche
+    // Same for accessing elements in an integer array.
 
-  // Same for accessing elements in an integer array.
-
-   return 0;
-
+    return 0;
 }
 
-//--------------------------Change specific elements from desired index----------------------------
 
-#include<iostream>
-#include<string>
-#include<cmath>
+//-------------------- Change specific elements from desired index --------------------------
+
+#include <iostream>
+#include <string>
+#include <cmath>
+
 using namespace std;
 
-int main(){
+int main()
+{
+    string cars[4] = {"Audi", "BMW", "Mercedes", "Prosche"};
 
-   string cars[4] = {"Audi", "BMW", "Mercedes", "Prosche"};
+    cars[0] = "Bugatti";
+    cars[1] = "Ferrari";
+    cars[2] = "Koenigsegg";
+    cars[3] = "Pagani";
 
-   cars[0] = "Bugatti";
-   cars[1] = "Ferrari";
-   cars[2] = "Koenigsegg";
-   cars[3] = "Pagani";
+    cout << cars[0] << endl;
+    cout << cars[1] << endl;
+    cout << cars[2] << endl;
+    cout << cars[3] << endl;
 
-cout<<cars[0];
-cout<<cars[1];
-cout<<cars[2];
-cout<<cars[3];
-
-   return 0;
+    return 0;
 }
