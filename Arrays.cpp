@@ -26,4 +26,28 @@ int main(){
         .
         n  element has ( n-1 ) position in an array
 */
+     return 0;
+}
+
+
+//--------------------------------Accessing an element in an array---------------------------------------
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+
+   string cars[4] = {"Audi", "BMW", "Mercedes", "Prosche"};
+
+   cout<<"Element at 0th position is: "<<cars[0]<<endl;     // Outputs - Audi
+   cout<<"Element at 1st position is: "<<cars[1]<<end;     // O/P - BMW
+   cout<<"Element at 2nd position is: "<<cars[2]<<endl;   // O/P - Mercedes
+   cout<<"Element at 3rd position is: "<<cars[3]<<endl;  // O/P - Porsche
+
+  // Same for accessing elements in an integer array.
+
+   return 0;
+
 }
