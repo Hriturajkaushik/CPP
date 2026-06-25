@@ -68,7 +68,10 @@ int main(){
    cars[2] = "Koenigsegg";
    cars[3] = "Pagani";
 
-   cout<<cars[4];
+cout<<cars[0];
+cout<<cars[1];
+cout<<cars[2];
+cout<<cars[3];
 
    return 0;
 }
