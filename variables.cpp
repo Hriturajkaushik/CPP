@@ -1,125 +1,232 @@
-// variable is a container to store something inside it
+// ============================================================
+// VARIABLES AND DATA TYPES IN C++
+// A variable is a container used to store data.
+// ============================================================
 
-// DATA Types
-
-// 1. int
-// 2. char
-// 3. float
-// 4. bool
-// 5. double
-
-#include <iostream>
-using namespace std;
-int main()
-{
-   int age = 90;
-   cout << age; // Output: 90
-   return 0;
-}
-
-
-// DTA TYPE = FLOAT
-#include <iostream>
-using namespace std;
-int main()
-{
-   float price = 70.9437;
-   cout << price; // Output: 70.9437
-   return 0;
-}
-
-
-// DATA TYPE: bool
-// (false = 0, true = 1)
-#include <iostream>
-using namespace std;
-int main()
-{
-   bool isSafe = false;
-   cout << isSafe; // Output: 0
-   return 0;
-}
-
-
-// DATA TYPE: double
+// Common Data Types:
+// 1. int    -> Stores whole numbers
+// 2. char   -> Stores a single character
+// 3. float  -> Stores decimal numbers (single precision)
+// 4. bool   -> Stores true or false
+// 5. double -> Stores decimal numbers (double precision)
 
 #include <iostream>
 using namespace std;
+
 int main()
 {
-   double price = 100.6555;
-   cout << price; // OUTPUT: 100.6555
-   return 0;
+    int age = 90;
+
+    cout << age;      // Output: 90
+
+    return 0;
 }
 
-// CONVERSION OF CHAR INTO INTEGER
+
+
+// ============================================================
+// DATA TYPE: FLOAT
+// Stores decimal numbers with single precision.
+// ============================================================
 
 #include <iostream>
 using namespace std;
+
 int main()
 {
-   char name = 'A';
-   int value = name;
-   cout << value;
-   return 0;
+    float price = 70.9437;
+
+    cout << price;    // Output: 70.9437
+
+    return 0;
 }
 
-// TYPE CONVERSION AND TYPECAST
+
+
+// ============================================================
+// DATA TYPE: BOOL
+// A bool variable stores only two values:
+// true  -> 1
+// false -> 0
+// ============================================================
 
 #include <iostream>
 using namespace std;
+
 int main()
 {
-   double price = 1235.1511516;
-   int NewPrice = (int)price;
-   cout << NewPrice;
-   return 0;
+    bool isSafe = false;
+
+    cout << isSafe;   // Output: 0
+
+    return 0;
 }
 
 
-// DATA TYPPE: BOOL
+
+
+// ============================================================
+// DATA TYPE: DOUBLE
+// Double stores decimal numbers with higher precision than float.
+// ============================================================
+
 #include <iostream>
 using namespace std;
+
 int main()
 {
-   bool itisfun = true;
-   bool itisnot = false;
-   cout << boolalpha; // It is used to print TRUE/FALSE instead of 1/0 as output
-   cout << itisfun << "\n";
-   cout << itisnot;
-   return 0;
+    double price = 100.6555;
+
+    cout << price;    // Output: 100.6555
+
+    return 0;
 }
 
 
+
+// ============================================================
+// CONVERSION OF CHAR TO INTEGER (ASCII VALUE)
+// Every character has an ASCII value.
+//
+// Example:
+// 'A' -> 65
+// 'a' -> 97
+// '0' -> 48
+// ============================================================
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char name = 'A';
+
+    int value = name;
+
+    cout << value;    // Output: 65
+
+    return 0;
+}
+
+
+
+// ============================================================
+// TYPE CASTING
+// Converting one data type into another.
+//
+// Explicit Type Casting:
+// We manually convert the data type.
+//
+// Syntax:
+// (datatype)variable
+// ============================================================
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double price = 1235.1511516;
+
+    int newPrice = (int)price;
+
+    cout << newPrice;     // Output: 1235
+
+    return 0;
+}
+
+
+
+
+// ============================================================
+// PRINTING BOOLEAN VALUES USING boolalpha
+//
+// By default:
+// true  -> 1
+// false -> 0
+//
+// boolalpha prints:
+// true
+// false
+// ============================================================
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    bool itIsFun = true;
+    bool itIsNot = false;
+
+    cout << boolalpha;
+
+    cout << itIsFun << "\n";
+    cout << itIsNot;
+
+    return 0;
+}
+
+
+
+
+// ============================================================
 // DATA TYPE: STRING
+// A string stores multiple characters (text).
+//
+// To use string, include:
+// #include <string>
+// ============================================================
+
 #include <iostream>
 #include <string>
+
 using namespace std;
+
 int main()
 {
-   string MyName = "Hrituraj Kauhsik";
-   cout << MyName; // OUTPUT: Hrituraj kaushik
-   return 0;
+    string myName = "Hrituraj Kaushik";
+
+    cout << myName;
+
+    return 0;
 }
 
 
-// AUTO VARIABLE
-// It automatically detect the data type of the variable in the compiler and assign it to the variable
+
+
+// ============================================================
+// AUTO KEYWORD
+//
+// The auto keyword automatically detects the data type
+// based on the value assigned to the variable.
+//
+// Examples:
+// auto x = 10;      -> int
+// auto y = 5.5;     -> double
+// auto z = 'A';     -> char
+// ============================================================
 
 #include <iostream>
 #include <string>
+
 using namespace std;
+
 int main()
 {
-   auto integerX = 234;
-   cout << integerX << "\n";
-   auto CharacterA = 'W';
-   cout << CharacterA << "\n";
-   auto FloatC = 30.54;
-   cout << FloatC << "\n";
-   auto DoubleD = 45.5476097409457;
-   cout << DoubleD << "\n";
-   auto StringY = string("Hrituraj Kaushik");
-   cout << StringY;
-   return 0;
+    auto integerX = 234;
+    cout << integerX << "\n";
+
+    auto characterA = 'W';
+    cout << characterA << "\n";
+
+    auto floatC = 30.54;
+    cout << floatC << "\n";
+
+    auto doubleD = 45.5476097409457;
+    cout << doubleD << "\n";
+
+    auto stringY = string("Hrituraj Kaushik");
+    cout << stringY;
+
+    return 0;
 }
