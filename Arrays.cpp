@@ -80,3 +80,26 @@ int main()
 
     return 0;
 }
+
+
+
+// In C++ WE don't have to define the size of an array, compiler is smart enough to determine the size of an array based on the elements present in it.
+
+#include<Iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+
+        string CAR[4] = {"Bugatti", "Ferrari", "Koenigsegg", "Pagani"}; // It has 4 elements
+        string car[] = {"Audi", "BMW", "Mercedes", "Prosche"}; // It also has 4 elements
+ 
+        cout<<CAR[0]<<endl;
+        cout<<CAR[3]<<endl;
+
+        cout<<car[0]<<endl;
+        cout<<car[3]<<endl;
+
+    return 0;
+}
