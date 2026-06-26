@@ -103,3 +103,32 @@ int main(){
 
     return 0;
 }
+
+
+
+//=========HOW TO PRINT ALL THE ELEMENTS OF AN ARRAY==========---?
+
+
+//--------------------------------Loop thorugh an Array-------------------------------
+
+/*
+   We cam't directly print all the elements of an array, For acheiving this we has to use 
+   "For" loop -> which iterate through the array and then print the elements.
+*/
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+
+    int num[] = {10,20,30,40,50,60,70,80,90,100};
+
+    for (int i = 0; i < 10; i++)
+    {
+        cout<<num[i]<<endl;
+    }
+    
+    return 0;
+}
