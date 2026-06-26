@@ -1,4 +1,4 @@
-﻿//-------------------------------------- ARRAYS -------------------------------------
+//-------------------------------------- ARRAYS -------------------------------------
 
 /*
    Arrays are a type of data structure used to store multiple values in a single variable.
