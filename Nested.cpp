@@ -54,9 +54,9 @@ int main() {
         
         // Print the table values side-by-side
         for (int j = 1; j <= 10; j++) {
-            cout << i * j << "\t"; // Using '\t' (tab) keeps the columns perfectly aligned
+            cout << i * j<<" "; // Using '\t' (tab) keeps the columns perfectly aligned
         }
-        cout << "\n\n"; // Double newline to space out the tables cleanly
+        cout << "\n"; // Double newline to space out the tables cleanly
     }
     return 0;
 }
