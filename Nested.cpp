@@ -60,3 +60,22 @@ int main() {
     }
     return 0;
 }
+
+
+#include<iostream>
+#include<string>
+#include<cmath>
+using namespace std;
+
+int main(){
+
+   for(int=0; i<=5; i++){
+    
+    for( int j = 0; j<=4; j++){
+      cout<<"*";
+    }
+   }
+   cout<<"\n";
+
+   return 0;
+}
