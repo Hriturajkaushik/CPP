@@ -25,7 +25,12 @@ int main()
     return 0;
 }
 
+
+
+
 #include <iostream>
+#include<string>
+#include<cmath>
 using namespace std;
 
 int main()
@@ -43,6 +48,8 @@ int main()
     }
     return 0;
 }
+
+
 
 #include <iostream>
 #include <string>
@@ -65,6 +72,8 @@ int main()
     return 0;
 }
 
+
+
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -86,6 +95,8 @@ int main()
     return 0;
 }
 
+
+
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -105,11 +116,36 @@ int main()
     return 0;
 }
 
+/*  OUTPUT
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+*/
+
+
+
 #include <iostream>
 #include <string>
 #include <cmath>
 using namespace std;
 
-int main()
-{
+int main(){
+    for( int i = 1; i<=5; i++){
+
+        for( int j = 1; j<=i; j++);{
+            cout<<j;
+        }
+        cout<<endl;
+    }
+
+    return 0;
 }
+/*  OUTPUT
+1
+12
+123
+1234
+12345
+*/
