@@ -13,6 +13,8 @@ int main()
   return 0;
 }
 
+
+
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -30,6 +32,8 @@ int main()
     cout << "time is not good";
   return 0;
 }
+
+
 
 #include <iostream>
 #include <string>
@@ -53,6 +57,7 @@ int main()
 
   return 0;
 }
+
 
 //  There is another way to write the if else condition in C++
 
@@ -98,6 +103,8 @@ int main(){
     return 0;
 }
 
+
+
 #include<iostream>
 #include<string>
 #include<cmath>
@@ -122,6 +129,8 @@ int main(){
   
   }
 }
+
+
 
 #include<iostream>
 #include<string>
