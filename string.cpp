@@ -71,9 +71,9 @@ using namespace std;
 int main()
 {
     string random = "nviubeuviubchbiubsuovcysdvyibryvhdvscisgciugwiovhbehjbvu;eviuwerjhiuyevwiucbvwcbwcbi;owhclbevubeuvbhlbvlbvlwvclywilcyv";
-    cout << "Length of the string is: " << random.length(); 
-    cout<<"\n";
-    cout<<"Length of the string is:"<<random.size();
+    cout << "Length of the string is: " << random.length();
+    cout << "\n";
+    cout << "Length of the string is:" << random.size();
     // we can also use SIZE in place of length.
     return 0;
 }
@@ -135,7 +135,6 @@ int main()
     cout << txt;
     return 0;
 }
-
 
 //-----------------ESCAPE SEQUENCE IN STRING-------------------------
 
