@@ -25,9 +25,6 @@ int main()
     return 0;
 }
 
-
-
-
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -51,20 +48,19 @@ int main()
 
 /* OUTPUT
 Multiplication Table of 1:
-1 2 3 4 5 6 7 8 9 10 
+1 2 3 4 5 6 7 8 9 10
 Multiplication Table of 2:
-2 4 6 8 10 12 14 16 18 20 
+2 4 6 8 10 12 14 16 18 20
             .
             .
             .
-            . 
+            .
 Multiplication Table of 9:
-9 18 27 36 45 54 63 72 81 90 
+9 18 27 36 45 54 63 72 81 90
 Multiplication Table of 10:
-10 20 30 40 50 60 70 80 90 100 
+10 20 30 40 50 60 70 80 90 100
 
 */
-
 
 #include <iostream>
 #include <string>
@@ -81,21 +77,19 @@ int main()
         {
             cout << "* ";
         }
-           cout << "\n";
+        cout << "\n";
     }
     return 0;
 }
 
-/*  
+/*
 OUTPUT
-* * * * 
-* * * * 
-* * * * 
-* * * * 
-* * * * 
+* * * *
+* * * *
+* * * *
+* * * *
+* * * *
 */
-
-
 
 #include <iostream>
 #include <string>
@@ -117,27 +111,29 @@ int main()
 }
 
 /*  OUTPUT
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
-*/
-
-
+ *
+ * *
+ * * *
+ * * * *
+ * * * * *
+ */
 
 #include <iostream>
 #include <string>
 #include <cmath>
 using namespace std;
 
-int main(){
-    for( int i = 1; i<=5; i++){
+int main()
+{
+    for (int i = 1; i <= 5; i++)
+    {
 
-        for( int j = 1; j<=i; j++);{
-            cout<<j;
+        for (int j = 1; j <= i; j++)
+            ;
+        {
+            cout << j;
         }
-        cout<<endl;
+        cout << endl;
     }
 
     return 0;
@@ -150,55 +146,59 @@ int main(){
 12345
 */
 
-
-#include<iostream>
-#include<string>
-#include<cmath>
+#include <iostream>
+#include <string>
+#include <cmath>
 using namespace std;
 
-int main(){
-   
-    for( int i = 1; i<=5; i++){
+int main()
+{
 
-    for( int j = 1; j<=5; j++){
-       cout<<j<<" ";
-    }
-    cout<<endl;
+    for (int i = 1; i <= 5; i++)
+    {
+
+        for (int j = 1; j <= 5; j++)
+        {
+            cout << j << " ";
+        }
+        cout << endl;
     }
 }
 
 /* OUTPUT
-1 2 3 4 5 
-1 2 3 4 5 
-1 2 3 4 5 
-1 2 3 4 5 
-1 2 3 4 5 
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
 */
 
-
-#include<iostream>
-#include<string>
-#include<cmath>
+#include <iostream>
+#include <string>
+#include <cmath>
 using namespace std;
 
-int main(){
-    
-    for( int i = 1; i<=5; i++){
+int main()
+{
 
-        for( int j = 0; j < 5; j++){
+    for (int i = 1; i <= 5; i++)
+    {
 
-            cout<<i<<" ";
+        for (int j = 0; j < 5; j++)
+        {
+
+            cout << i << " ";
         }
 
-        cout<<endl;
+        cout << endl;
     }
     return 0;
 }
 
 /* OUTPUT
-1 1 1 1 1 
-2 2 2 2 2 
-3 3 3 3 3 
-4 4 4 4 4 
-5 5 5 5 5 
+1 1 1 1 1
+2 2 2 2 2
+3 3 3 3 3
+4 4 4 4 4
+5 5 5 5 5
 */
