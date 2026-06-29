@@ -72,6 +72,21 @@ int main()
     return 0;
 }
 
+/* OUTPUT
+Multiplication Table of 1:
+1 2 3 4 5 6 7 8 9 10 
+Multiplication Table of 2:
+2 4 6 8 10 12 14 16 18 20 
+            .
+            .
+            .
+            . 
+Multiplication Table of 9:
+9 18 27 36 45 54 63 72 81 90 
+Multiplication Table of 10:
+10 20 30 40 50 60 70 80 90 100 
+
+*/
 
 
 #include <iostream>
@@ -82,18 +97,26 @@ using namespace std;
 int main()
 {
 
-    for (int = 0; i <= 5; i++)
+    for (int i = 1; i <= 5; i++)
     {
 
-        for (int j = 0; j <= 4; j++)
+        for (int j = 1; j <= 4; j++)
         {
-            cout << "*";
+            cout << "* ";
         }
+           cout << "\n";
     }
-    cout << "\n";
-
     return 0;
 }
+
+/*  
+OUTPUT
+* * * * 
+* * * * 
+* * * * 
+* * * * 
+* * * * 
+*/
 
 
 
